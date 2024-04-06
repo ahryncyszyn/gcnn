@@ -1,6 +1,6 @@
 import numpy as np
 from keras import KerasTensor
-from keras import Operation
+from keras.ops.operation import Operation
 from keras.backend import result_type
 from kgcnn.backend import any_symbolic_tensors
 import kgcnn.backend as kgcnn_backend
